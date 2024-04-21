@@ -1,0 +1,13 @@
+public class BoucleWhileExample {
+    public static void main(String[] args) {
+        // Initialisation de la variable de contrôle
+        int i = 1;
+        
+        // Utilisation d'une boucle while pour afficher les nombres de 1 à 10
+        while (i <= 10) {
+            System.out.println("Nombre : " + i);
+            // Incrémentation de la variable de contrôle
+            i++;
+        }
+    }
+}
